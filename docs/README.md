@@ -41,7 +41,7 @@ Integrated Antenna.
 
 **Unassembled top layer  PCB photo**.
 
-![TOP](https://github.com/luisgcu/mbox-hardware/blob/dev/images/tpcb.jpg)
+![TOP](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/tpcb1.jpg)
 
 
 
@@ -49,7 +49,7 @@ Integrated Antenna.
 
 
 
-![Bottom](https://github.com/luisgcu/mbox-hardware/blob/dev/images/bpcb.jpg)
+![Bottom](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/bpcb1.jpg)
 
 
 
