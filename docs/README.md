@@ -1,4 +1,4 @@
-# mbox-hardware
+# mbox-hardware-mk
 ModbusBox device hardware design.
 
 ### Introduction.
@@ -55,7 +55,11 @@ Integrated Antenna.
 
 ### Electronic Schematic.
 
-[PDF ](https://github.com/luisgcu/mbox-hardware/blob/dev/modbusbox.pdf)
+![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mboxschematic.jpg)
+
+[PDF SCHEMATIC](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/docs/modbusbox.pdf)
+
+
 
 ![ASSEMBLED PCB](https://github.com/luisgcu/mbox-hardware/blob/dev/images/ModbusBox.png)
 
