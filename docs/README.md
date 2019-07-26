@@ -59,9 +59,17 @@ Integrated Antenna.
 
 [PDF SCHEMATIC](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/docs/modbusbox.pdf)
 
+## PCB PHOTOS 
+
+![ASSEMBLED PCB](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx2.jpg)
+
+![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx3.jpg)
+
+![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx4.jpg)
 
 
-![ASSEMBLED PCB](https://github.com/luisgcu/mbox-hardware/blob/dev/images/ModbusBox.png)
+
+
 
 
 
