@@ -71,7 +71,7 @@ Integrated Antenna.
 
 ### Modbus  Box Assembled  
 
-![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Connections_dec2.jpg)
+![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Mbox%20Connector.jpg)
 
 ###  Connecting the power to the Modbus Box 
 
