@@ -65,17 +65,15 @@ Integrated Antenna.
 
 ![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx3.jpg)
 
-![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx4.jpg)
-
-
-
 ### Modbus  Box Assembled  
 
 ![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Mbox%20Connector.jpg)
 
-###  Connecting the power to the Modbus Box 
+###  Modbus Box & ControlTechniques AC drives.
 
+The Modbus Box had been tested successfully  with several AC drives  models of the recognized brad Nidec Control techniques , some of the  drive models tested are : M200/300/400 and C200.  Modbus Box can be connected directly to the drive AI-485 adaptor which also have 24 volts , there is no requirement for additional power supply . An ethernet cable Cat5e  can be used to  make the connection  between the Modbus box and the drive RS485 port.
 
+![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Mbox-CT%20drives.jpg)
 
 
 
