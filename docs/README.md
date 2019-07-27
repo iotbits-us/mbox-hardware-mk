@@ -83,7 +83,7 @@ In order to connect Modbus box to other Modbus slaves we recommend the following
 - Ethernet cable Cat6e 0.5m ...50m : [aliexpress link](https://www.aliexpress.com/item/32694241950.html?spm=a2g0o.productlist.0.0.9092403dVuzqNC&algo_pvid=769067d0-d6fb-4676-b6cb-d6e4e51600fe&algo_expid=769067d0-d6fb-4676-b6cb-d6e4e51600fe-0&btsid=7b7bc02a-cc6a-4bed-9a7c-db1720ab03a8&ws_ab_test=searchweb0_0%2Csearchweb201602_3%2Csearchweb201603_52).
 - DC 24 or 12 volts 1 amp  power supply : [aliexpress link ](https://www.aliexpress.com/item/33014882564.html?spm=a2g0o.productlist.0.0.2c112a5dqVQcpi&algo_pvid=156211e4-a33d-4b1b-8fa4-83e324b6f369&algo_expid=156211e4-a33d-4b1b-8fa4-83e324b6f369-2&btsid=9af3999f-a54b-44a6-b236-d98386595c6f&ws_ab_test=searchweb0_0%2Csearchweb201602_3%2Csearchweb201603_52)
 
-[Rj45 Female to Srew Terminal](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Modbus%20Adaptor.jpg)
+![RJ45 Female To Screw Terminal ](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Modbus%20Adaptor.jpg)
 
 To be continued.. 
 
