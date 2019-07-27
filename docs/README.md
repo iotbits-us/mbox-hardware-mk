@@ -1,4 +1,4 @@
-# mbox-hardware-mk
+# Mbox-hardware-mk
 ModbusBox device hardware design.
 
 ### Introduction.
