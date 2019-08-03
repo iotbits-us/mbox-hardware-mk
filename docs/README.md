@@ -85,7 +85,9 @@ In order to connect Modbus box to other Modbus slaves we recommend the following
 
 ![RJ45 Female To Screw Terminal ](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Modbus%20Adaptor.jpg)
 
-To be continued.. 
+### Connecting Modbus Box to SDM230-Modbus.
+
+
 
 
 
