@@ -31,6 +31,11 @@ ModbusBox device hardware design.
 - 1x Modbus TX led.
 - 1x Modbus RX led.
 
+**Additional Features**
+
+- Dc input voltage measurement (voltage divider connected to GPIO35).
+- DC input capacitor act as short voltage backup , when  combined with the voltage divider measurement   can be used in the ESP32 program to send  and alarm ( for example an MQTT message )  before the voltage stored in the capacitor reach 3.3 volts.
+
 **WiFi Specs**.
 
 IEEE 802.11 b/g/n
