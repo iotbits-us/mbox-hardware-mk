@@ -87,6 +87,10 @@ In order to connect Modbus box to other Modbus slaves we recommend the following
 
 ### Connecting Modbus Box to SDM230-Modbus.
 
+![SDM230-Modbus](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/SDM230-Modbus.jpg)
+
+
+
 
 
 
