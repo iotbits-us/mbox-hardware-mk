@@ -3,9 +3,11 @@ ModbusBox device hardware design.
 
 ### Introduction.
 
-**ModbusBox**    allows the integration of Modbus RTU networks to a WiFi connection. It is capable to  read data registers  from modbus slaves  then send data periodically  to cloud services using the very popular MQTT protocol. Data is serialized  using  Json format , the information can be processed and displayed in dashboards  by many open source IOT platforms like Node-red, Influxdb & Grafana,  Ubidots educational and  its pay platform which is very powerfully and easy to use. 
+**ModbusBox**    allows the integration of Modbus RTU networks to a WiFi connection. It is capable to  read data registers  from Modbus slaves (tested with 4 )  then send data periodically  to cloud services using the very popular MQTT protocol. Data is serialized  using  Json format , the information can be processed and displayed in dashboards  by many open source IOT platforms like Node-red, Influxdb & Grafana,  Ubidots educational and  its pay platform which is very powerfully and easy to use. 
 
-**ModbusBox**  has been tested and optimized to be connected to  Variable frequency drives that uses  modbus RTU as base protocol .
+**ModbusBox**  has been tested and optimized to be connected to  Variable frequency drives that uses  modbus RTU as base protocol , but it can be used with any other device that uses modbus rtu over RS485. protocol .
+
+------
 
 ### Hardware features.
 
@@ -31,7 +33,7 @@ ModbusBox device hardware design.
 - 1x Modbus TX led.
 - 1x Modbus RX led.
 
-**Additional Features**
+**Additional Features**.
 
 - Dc input voltage measurement (voltage divider connected to GPIO35).
 - DC input capacitor act as short voltage backup , when  combined with the voltage divider measurement   can be used in the ESP32 program to send  and alarm ( for example an MQTT message )  before the voltage stored in the capacitor reach 3.3 volts.
@@ -44,27 +46,23 @@ Freq Band: 2.4 ~ 2.462 GHZ.
 
 Integrated Antenna.
 
+------
+
+### PCB  DESING 
+
+![Electronic Schematic](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mboxschematic.jpg)
+
+[PDF SCHEMATIC](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/docs/modbusbox.pdf)
+
 **Unassembled top layer  PCB photo**.
 
 ![TOP](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/tpcb1.jpg)
 
-
-
-### Unassembled bottom  layer  PCB photo.
-
-
+**Unassembled bottom  layer  PCB photo**
 
 ![Bottom](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/bpcb1.jpg)
 
-
-
-### Electronic Schematic.
-
-![](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mboxschematic.jpg)
-
-[PDF SCHEMATIC](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/docs/modbusbox.pdf)
-
-## PCB PHOTOS 
+**PCB Photos** 
 
 ![ASSEMBLED PCB](https://github.com/iotbits-llc/mbox-hardware-mk/blob/master/images/mbx2.jpg)
 
@@ -74,11 +72,15 @@ Integrated Antenna.
 
 ![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Mbox%20Connector.jpg)
 
+------
+
 ###  Modbus Box & ControlTechniques AC drives.
 
 The Modbus Box had been tested successfully  with several AC drives  models of the recognized brad Nidec Control techniques , some of the  drive models tested are : M200/300/400 and C200.  Modbus Box can be connected directly to the drive AI-485 adaptor which also have 24 volts , there is no requirement for additional power supply . An ethernet cable Cat5e  can be used to  make the connection  between the Modbus box and the drive RS485 port.
 
 ![](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/Mbox-CT%20drives.jpg)
+
+------
 
 ### Connecting Modbus Box to other Modbus slaves.
 
@@ -93,6 +95,12 @@ In order to connect Modbus box to other Modbus slaves we recommend the following
 ### Connecting Modbus Box to SDM230-Modbus.
 
 ![SDM230-Modbus](https://github.com/iotbits-us/mbox-hardware-mk/blob/master/images/SDM230-Modbus.jpg)
+
+[Library to test the ModbusBox ](https://github.com/luisgcu/SensorModbusMaster)
+
+
+
+
 
 
 
